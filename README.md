@@ -1,5 +1,5 @@
 This is a [d360 task](https://d360.com) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+The Animation was built using "Framer-motion" react libary
 ## Getting Started
 First , install node modules 
 
