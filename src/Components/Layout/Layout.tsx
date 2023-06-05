@@ -1,5 +1,9 @@
 import { motion } from "framer-motion";
+/**
+ * A HOC that take any page and give it smooth transtion felling
 
+ * @returns {*}   A HOC
+ */
 const Layout = ({ children }) => (
     <motion.div
         initial={{ x: 300, opacity: 0 }}

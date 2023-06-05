@@ -5,6 +5,12 @@ import { photos } from "../../../public/data/photos";
 
 import {ProgressBar} from './styles'
 
+/**
+ * landing page component that have vertical progress bar and the photo iterator
+
+ * @returns {*}   React Componenet
+ */
+
 const LandingPage = () => {
     const { scrollYProgress } = useScroll();
     return (

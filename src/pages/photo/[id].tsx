@@ -13,7 +13,11 @@ import { useEffect, useState } from "react";
 import { photos } from "../../../public/data/photos";
 import { motion } from "framer-motion";
 import { LoremIpsum } from "react-lorem-ipsum";
+/**
+ * A Photo page that handle the info of the photo and give description
 
+ * @returns {*} A Page
+ */
 const Photo = () => {
     const router = useRouter();
     const { id } = router.query;
